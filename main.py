@@ -62,11 +62,11 @@ from collections import deque
 load_dotenv()
 
 
-API_ID = int(os.environ.get("API_ID"))
-API_HASH = os.environ.get("API_HASH")
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+API_ID = int(os.environ.get("b32ec0fb66d22da6f77d355fbace4f2a"))
+API_HASH = os.environ.get("29568441")
+BOT_TOKEN = os.environ.get("8345764332:AAEIG0SAJ6KuUORQnG9cbqCR7IOFXCGUXbY")
 ASSISTANT_SESSION = os.environ.get("ASSISTANT_SESSION")
-OWNER_ID = int(os.getenv("OWNER_ID", "5268762773"))
+OWNER_ID = int(os.getenv("8047322676", "5268762773"))
 
 
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
